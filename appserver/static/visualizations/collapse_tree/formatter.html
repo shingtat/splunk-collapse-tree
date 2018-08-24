@@ -1,0 +1,72 @@
+<form class="splunk-formatter-section" section-label="Search">
+  <splunk-control-group label="APAC">
+      <splunk-select name="{{VIZ_NAMESPACE}}.apac" value="">
+          <option value="None">None</option>
+          <option value="SBLOZPB">SBLOZPB</option>
+          <option value="BILL_OZ">BILL_OZ</option>
+          <option value="EODHK">EODHK</option>
+          <option value="EODCSLHK">EODCSLHK</option>
+          <option value="EODSYD">EODSYD</option>
+          <option value="SegRepoOZ">SEGREPOOZ</option>
+      </splunk-select>
+  </splunk-control-group>
+  <splunk-control-group label="EU">
+      <splunk-select name="{{VIZ_NAMESPACE}}.eu" value="">
+          <option value="None">None</option>
+          <option value="EODSABRE">EODSABRE</option>
+          <option value="EODLON">EODLON</option>
+          <option value="EODCSLLON">EODCSLLON</option>
+          <option value="BILL_EU">BILL_EU</option>
+          <option value="EODSBL">EODSBL</option>
+          <option value="BILL_AP">BILL_AP</option>
+          <option value="EODCSLCOMB">EODCSLCOMB</option>
+          <option value="EODCSLLON2">EODCSLLON2</option>
+          <option value="EODLON2">EODLON2</option>
+          <option value="CSLAPACLAT">CSLAPACLAT</option>
+          <option value="SegRepoAG">SEGREPOAG</option>
+      </splunk-select>
+  </splunk-control-group>
+  <splunk-control-group label="US">
+      <splunk-select name="{{VIZ_NAMESPACE}}.us" value="">
+          <option value="None">None</option>
+          <option value="CSLUSCOMB">CSLUSCOMB</option>
+          <option value="EODNY">EODNY</option>
+          <option value="BILL_US">BILL_US</option>
+          <option value="BILL_USPR">BILL_USPR</option>
+          <option value="EOD15A6">EOD15A6</option>
+          <option value="CSLGCPCOMB">CSLGCPCOMB</option>
+          <option value="EODCSLUS">EODCSLUS</option>
+          <option value="EODCSLGCP">EODCSLGCP</option>
+          <option value="SegRepoGCP">SEGREPOGCP</option>
+          <option value="SegRepoCTS">SEGREPOCTS</option>
+      </splunk-select>
+  </splunk-control-group>
+  <splunk-control-group label="Search Event">
+      <splunk-text-input name="{{VIZ_NAMESPACE}}.event" value="Reports" placeholder="BILL_AP"></splunk-text-input>
+  </splunk-control-group>
+</form>
+<form class="splunk-formatter-section" section-label="General">
+  <splunk-control-group label="Length">
+      <splunk-text-input name="{{VIZ_NAMESPACE}}.length" value="180"></splunk-text-input>
+  </splunk-control-group>
+  <splunk-control-group label="Radius">
+      <splunk-text-input name="{{VIZ_NAMESPACE}}.radius" value="4.5"></splunk-text-input>
+  </splunk-control-group>
+  <splunk-control-group label="Width">
+      <splunk-text-input name="{{VIZ_NAMESPACE}}.width" value="1200"></splunk-text-input>
+  </splunk-control-group>
+  <splunk-control-group label="Height">
+      <splunk-text-input name="{{VIZ_NAMESPACE}}.height" value="300"></splunk-text-input>
+  </splunk-control-group>
+</form>
+<form class="splunk-formatter-section" section-label="Color">
+  <splunk-control-group label="Red Color">
+      <splunk-color-picker name="{{VIZ_NAMESPACE}}.red" value="#ff0000"></splunk-color-picker>
+  </splunk-control-group>
+  <splunk-control-group label="Amber Color ">
+      <splunk-color-picker name="{{VIZ_NAMESPACE}}.amber" value="#FFA500"></splunk-color-picker>
+  </splunk-control-group>
+  <splunk-control-group label="Green Color">
+      <splunk-color-picker name="{{VIZ_NAMESPACE}}.green" value="#008000"></splunk-color-picker>
+  </splunk-control-group>
+</form>

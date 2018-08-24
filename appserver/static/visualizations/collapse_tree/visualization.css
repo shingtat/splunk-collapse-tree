@@ -1,0 +1,79 @@
+/*
+ * CSS rules for visualization.
+ * Class namespacing is good practice.
+ */
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+/* === Tooltip === */
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  width: 120px;
+  height: 30px;
+  padding: 8px;
+  font: 10px sans-serif;
+  background: #D3D3D3;
+  border: solid 1px #aaa;
+  border-radius: 8px;
+  word-wrap: normal;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+.childlink {
+  fill: none;
+  stroke: red;
+  stroke-width: 1.5px;
+}
+
+/* === Legend === */
+
+.legend {
+  float: right;
+}
+
+.legend ul {
+  margin: 15px 0px;
+  list-style-type: none;
+}
+
+li.key {
+  color: #555;
+  border-left-width: 12px;
+  border-left-style: solid;
+  font-size: 12px;
+  line-height: 13px;
+  width: 125px;
+  padding-left: 5px;
+  opacity: 0.85;
+  margin-bottom:6px;
+  word-break: break-all;
+}
+
+li.key span {
+  height: 25px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.legend ul text {
+  font-weight: bold;
+  font-size: 11px;
+}

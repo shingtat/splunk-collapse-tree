@@ -1,0 +1,22 @@
+{
+  "name": "collapse_tree",
+  "version": "1.0.0",
+  "description": "D3 collapse tree integration to Splunk.",
+  "main": "visualization.js",
+  "scripts": {
+    "build": "$SPLUNK_HOME/bin/splunk cmd node ./node_modules/webpack/bin/webpack.js",
+    "devbuild": "$SPLUNK_HOME/bin/splunk cmd node ./node_modules/webpack/bin/webpack.js --progress",
+    "watch": "$SPLUNK_HOME/bin/splunk cmd node ./node_modules/webpack/bin/webpack.js -d --watch --progress"
+  },
+  "author": "Splunk",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.12.6"
+  },
+  "dependencies": {
+    "d3": "^3.5.17",
+    "d3-hierarchy": "^1.1.6",
+    "jquery": "^3.3.1",
+    "underscore": "^1.9.1"
+  }
+}

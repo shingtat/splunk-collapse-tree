@@ -1,0 +1,14 @@
+EventKey,DependsOnEventKey,DependsOnEventDescription,DependsExpectedDateTime,DependsUpdateTime,DependsEventServiceLevelCode,DependsEventServiceLevelSetName
+Axe_US,Krypton AxeActivity US,CSL Position Parent Load Profile,8/23/18 15:30,8/23/18 4:20,Red,Red in 60
+BILL_OZCTS,Bill CTS NetBoxedDetail OZ,Billing,8/24/18 15:30,8/24/18 4:20,Amber,Red in 30
+BILL_OZCTS,Bill CTS NetBoxedDetail US,Billing,8/25/18 15:30,8/25/18 4:20,Green,Red in 5
+BILL_OZCTS,Bill CTS NetBoxedDetail EU,Billing,8/26/18 15:30,8/26/18 4:20,Green,Red in 60
+BILL_OZCTS,Bill CTS NetBoxedDetail APAC,Billing,8/27/18 15:30,8/27/18 4:20,Green,Red in 64
+BILL_AP,EODTOK,EODTOK,8/28/18 15:30,8/28/18 4:20,Red,Red in 65
+BILL_AP,Billing CrossProduct AP,Billing,8/29/18 15:30,8/29/18 4:20,Red,Red in 66
+BILL_AP,Billing Daily Accrual AP,Billing,8/30/18 15:30,8/30/18 4:20,Amber,Red in 67
+BILL_AP,Billing NetBoxed Detail AP,Billing,8/31/18 15:30,8/31/18 4:20,Red,Red in 68
+BILL_AP,BIlling Rebate Accrual AP,Billing,9/1/18 15:30,9/1/18 4:20,Amber,Red in 69
+BILL_AP,Billing UnsecPosDetail AP,Billing,9/2/18 15:30,9/2/18 4:20,Red,Red in 70
+EODTOK,EODHVHK,Billing,9/3/18 15:30,9/3/18 4:20,Green,Red in 71
+EODTOK,HAVCLATE,Billing,9/4/18 15:30,9/4/18 4:20,Red,Red in 72
